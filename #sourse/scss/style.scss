@@ -60,7 +60,8 @@ h2{
    &__burger {
    }
 }
-@media (max-width: 992px){
+//@media (max-width: 992px){
+@media (max-width: 900px){
    .header__list{
       display: none;
    }
@@ -149,7 +150,8 @@ h2{
       grid-row: span 2;
    }
 }
-@media (min-width:992px){
+@media (min-width:900px){
+//@media (min-width:992px){
    .main{
       grid-area: main;
       display: grid;
